@@ -36,3 +36,13 @@ console.log(getCountryByCurrency("USD"));
 console.log(getCountryByCurrency("EUR"));
 console.log(getCountryByCurrency("GEL"));
 console.log(getCountryByCurrency("JPY")); 
+
+
+function toLowerCaseString(str = "") {
+  if (typeof str !== "string") {
+    return "";
+  }
+  return str.toLowerCase();
+}
+
+
